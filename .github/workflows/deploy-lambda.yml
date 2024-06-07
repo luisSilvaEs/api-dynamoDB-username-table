@@ -26,9 +26,7 @@ jobs:
           aws-region: us-east-2
 
       - name: Install dependencies
-        env:
-          CI: true
-        run: npm ci
+        run: npm install
 
 
       - name: Deploy to Lambda
