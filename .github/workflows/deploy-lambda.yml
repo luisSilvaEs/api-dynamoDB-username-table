@@ -30,6 +30,6 @@ jobs:
 
 
       - name: Deploy to Lambda
-        run: 
+        run: |
           zip -j deploy.zip ./user-form-create-username/*
           aws lambda update-function-code --function-name=user-form-create-username=fileb://deploy.zip
