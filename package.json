@@ -1,0 +1,12 @@
+{
+  "name": "api-dynamodb-username-table",
+  "version": "1.0.0",
+  "description": "This repository contains the CRUD operations over a table of users created in DynamoDB. The operations are hosted in Lambda funcions, each operations has its own Lambda function, each Lambda is linked to an API Gateway which performs as _endpoint_ for the operation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
